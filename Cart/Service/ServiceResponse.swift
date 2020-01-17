@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+enum ServiceResponse<T> {
+    case success(T?)
+    case failure(Error)
+}

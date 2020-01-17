@@ -7,3 +7,13 @@
 //
 
 import Foundation
+struct  AddCartRequestResult {
+    
+    let productId: Int
+
+    func toJSON() -> [String: Any] {
+        return ["productId": productId] as [String: Any]
+    }
+    
+}
+

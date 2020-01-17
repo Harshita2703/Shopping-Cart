@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+enum  ServiceHeaders: String {
+    case contentType = "Content-Type"
+}

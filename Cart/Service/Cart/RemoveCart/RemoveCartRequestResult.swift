@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+struct RemoveCartRequestResult {
+    let id: Int
+}

@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+struct RemoveCartResponseResult: Codable {
+// If we have response need to consider
+}

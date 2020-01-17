@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+protocol ServiceRequestable {
+    var httpMethod: APIMethod {get}
+    var method: String? {get}
+    var params: [String: Any]? {get}
+}

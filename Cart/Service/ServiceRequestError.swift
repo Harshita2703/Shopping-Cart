@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+ protocol ServiceRequestError: Error {
+     associatedtype ErrorKind
+     var errorType: ErrorKind {get}
+     var errorCode: String {get set}
+     var errorDescription: String {get set}
+ }
+

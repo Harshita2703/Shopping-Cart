@@ -7,8 +7,7 @@
 //
 
 import Foundation
-struct ProductRequestResult {
-    
-    let id: Int
 
+struct ProductRequestResult {
+    let id: Int
 }
